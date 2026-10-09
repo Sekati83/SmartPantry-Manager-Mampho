@@ -1,3 +1,5 @@
+// PantryDao.java - Data Access Object for Room
+// Provides CRUD operations and expiry filtering queries
 package com.example.smartpantrymanager;
 
 import androidx.room.Dao;
