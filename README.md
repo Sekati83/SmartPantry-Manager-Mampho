@@ -2,7 +2,7 @@
 **Student:** Mampho H Modikeng 
 **Module:** Mobile App Development 700 
 **GitHub:** https://github.com/Sekati83/SmartPantry-Manager-Mampho 
-**Video Demo:** [(https://1drv.ms/v/c/e98ca4488ac53a05/IQCLBmnPtYTlR7hbp78K2uuRARYxfdEalYI9FQavZvJGPng?e=3eynhB)"]
+**Video Demo:** https://1drv.ms/v/c/e98ca4488ac53a05/IQCLBmnPtYTlR7hbp78K2uuRARYxfdEalYI9FQavZvJGPng?e=3eynhB
 
 ## 1. Project Overview
 Smart Pantry Manager is an Android application that helps users manage their pantry inventory, track expiry dates, reduce food waste, and get recipe suggestions based on available ingredients. Built with Java and Android Studio using Room persistence library for offline-first data storage.
@@ -76,7 +76,7 @@ Complete push history available in Commits tab. This README present.
 - Database persistence demo
 - Verbal explanation of Room components
 
-Link: [https://1drv.ms/v/c/e98ca4488ac53a05/IQCLBmnPtYTlR7hbp78K2uuRARYxfdEalYI9FQavZvJGPng?e=3eynhB]
+Link: https://1drv.ms/v/c/e98ca4488ac53a05/IQCLBmnPtYTlR7hbp78K2uuRARYxfdEalYI9FQavZvJGPng?e=3eynhB
 
 ## 9. Screenshots
 - Screenshot 1: Project Structure showing `app/src/main/java/com/example/smartpantrymanager/` with AppDatabase.java
