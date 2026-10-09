@@ -1,3 +1,6 @@
+// AppDatabase.java - Room Database configuration for Smart Pantry Manager
+// Author: Mampho H Modikeng - MAM700
+// This class handles SQLite persistence with migration from version 1 to 2 for category colunm
 package com.example.smartpantrymanager;
 
 import androidx.room.Database;
