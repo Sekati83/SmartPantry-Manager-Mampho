@@ -2,12 +2,12 @@
 **Student:** Mampho H Modikeng 
 **Module:** Mobile App Development 700 
 **GitHub:** https://github.com/Sekati83/SmartPantry-Manager-Mampho 
-**Video Demo:** [Paste your Google Drive video link here - Make it "Anyone with link can view"]
+**Video Demo:** [(https://1drv.ms/v/c/e98ca4488ac53a05/IQCLBmnPtYTlR7hbp78K2uuRARYxfdEalYI9FQavZvJGPng?e=3eynhB)"]
 
 ## 1. Project Overview
 Smart Pantry Manager is an Android application that helps users manage their pantry inventory, track expiry dates, reduce food waste, and get recipe suggestions based on available ingredients. Built with Java and Android Studio using Room persistence library for offline-first data storage.
 
-## 2. App Functionality & Requirements (20 Marks)
+## 2. App Functionality & Requirements 
 All required screens work and CRUD operations are fully functional:
 
 ### Screens Implemented:
@@ -25,7 +25,7 @@ All required screens work and CRUD operations are fully functional:
 
 App is stable and free of crashes - tested on Pixel 7 Emulator API 34.
 
-## 3. Database Implementation (15 Marks)
+## 3. Database Implementation 
 **Technology:** Room (SQLite Abstraction) - Offline-first persistence
 
 - **Entities:** `PantryItem.java` (id, name, quantity, expiryDate, category) and `Recipe.java`
@@ -37,21 +37,21 @@ App is stable and free of crashes - tested on Pixel 7 Emulator API 34.
 
 Location: `app/src/main/java/com/example/smartpantrymanager/`
 
-## 4. Code Quality & Java Fundamentals (25 Marks)
+## 4. Code Quality & Java Fundamentals 
 - **Clean & Commented:** All Java files have header comments explaining purpose and author logic
 - **Activities:** MainActivity, RecipeDetailActivity, SettingsActivity, SuggestedActivity - each with lifecycle handling
 - **Layouts:** XML layouts use ConstraintLayout and LinearLayout, responsive for mobile screens (activity_main.xml, item_pantry.xml)
 - **Intents:** Explicit Intents used for navigation between activities with putExtra for item IDs
 - **Adapters:** PantryAdapter extends RecyclerView.Adapter for efficient list display, ViewHolder pattern implemented
 
-## 5. UI/UX Design (10 Marks)
+## 5. UI/UX Design 
 - Interface is usable and consistent - Material Design 3 components
 - RecyclerView with CardView for each pantry item showing name, quantity, expiry with color-coded expiry warnings (Red = expired, Orange = expiring in 3 days, Green = fresh)
 - DatePickerDialog prevents selection of past dates - improves user experience
 - Appropriate layout for mobile screen, tested on multiple screen sizes
 - FloatingActionButton for quick add, intuitive icons
 
-## 6. GitHub Version Control (10 Marks)
+## 6. GitHub Version Control 
 Regular commits showing incremental development:
 - Commit 1: Initial project setup with Room dependencies
 - Commit 2: Created PantryItem Entity and PantryDao
@@ -76,7 +76,7 @@ Complete push history available in Commits tab. This README present.
 - Database persistence demo
 - Verbal explanation of Room components
 
-Link: [Insert Google Drive Link Here]
+Link: [https://1drv.ms/v/c/e98ca4488ac53a05/IQCLBmnPtYTlR7hbp78K2uuRARYxfdEalYI9FQavZvJGPng?e=3eynhB]
 
 ## 9. Screenshots
 - Screenshot 1: Project Structure showing `app/src/main/java/com/example/smartpantrymanager/` with AppDatabase.java
