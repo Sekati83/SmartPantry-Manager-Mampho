@@ -1,3 +1,6 @@
+// MainActivity.java - Main UI controller for Pantry CRUD operations
+// Implements date validation to block past expiry dates
+// Uses RecyclerView with PantryAdapter for displaying items
 package com.example.smartpantrymanager;
 
 import android.content.Intent;
